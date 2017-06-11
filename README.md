@@ -11,6 +11,7 @@
   - `config.toolbar = [{ name: 'CKAwesome', items: ['Image', 'ckawesome']}];`
 4. Add the path to your Font-awesome css file:
   - `config.fontawesomePath = 'path/to/your/fontawesome/folder/font-awesome.min.css';`
+5. Include resources/frontend.css after including Font Awesome on your frontend to counter the extra hard space. (optional)
 
 # Demo
 http://io.blackdevelop.com/ckawesome/

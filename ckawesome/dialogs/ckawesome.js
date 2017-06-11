@@ -139,6 +139,7 @@ CKEDITOR.dialog.add('ckawesomeDialog', function( editor ) {
             var cka_class = "fa fa-fw " + dialog.getValueOf( 'options', 'ckawesomebox' );
             var cka_style = ( cka_size != '' ? 'font-size: '+cka_size+'px;' : '' ) + ( cka_color != '' ? 'color: '+cka_color+';' : '' ) ;
             
+			cka.$.innerHTML = '&nbsp;';
             cka.setAttribute( 'class', cka_class );
             if ( cka_style ) cka.setAttribute( 'style', cka_style );
             
